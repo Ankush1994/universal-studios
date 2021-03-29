@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: classpath:db/changelog/create-universal-studios-tables.sql
+  - include:
+      file: classpath:db/changelog/add-rides.sql
+  - include:
+      file: classpath:db/changelog/add-admin-user.sql
